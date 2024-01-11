@@ -4,8 +4,6 @@ import { TODO_URL } from "../helper/api.url";
 import { getAllTodo } from "../helper/API/useStateAndUseEffect";
 import ReactDetectStatusBar from "../hooks/status-bar-react-detect";
 import HOC from "../components/optimization/higherOrderComponent";
-import { TableComponent, fuzzySort } from "../components/table";
-import { ColumnDef } from "@tanstack/react-table";
 import { Person } from "../util/todo";
 
 const Todo = () => {
