@@ -39,4 +39,4 @@ jobs:
         run: npm install && npm run build
 
       - name: create a folder
-        run: mkdir build
+        run: mkdir test
